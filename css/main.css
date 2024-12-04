@@ -1,0 +1,80 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #d8d2aa;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto; /* Center content */
+}
+a {
+  color: #4a461a;
+  text-decoration: none;
+}
+a:hover {
+  color: #626568;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.btn {
+border-radius: 0px;
+}
+table {
+  border: black solid 2px;
+} 
+table thead{
+border-color: black solid 1px;
+}
+table thead {
+  border-color: black solid 1px;
+}
+table tbody {
+  border-color: black;
+}
+table tbody tr {
+  border-color: black;
+}
+table tbody tr th {
+  border-color: black;
+}
+@media print {
+  table {
+    border: #000 solid 1px;
+  }
+  table thead {
+    border-color: black solid 1px;
+  }
+  table tbody {
+    border-color: black;
+  }
+  table tbody tr {
+    border-color: black;
+  }
+  table tbody tr th {
+    border-color: black;
+  }
+}
+.well {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.333);
+  background: linear-gradient(to right, #7e6206, #ffffff);
+  color: #2d260f;
+}
+.btn-info {
+  background-color: #7e6206;
+  border-color: #7e6206;
+}
+.btn-info:hover {
+  background-color: #7e6206;
+  border-color: #7e6206;
+}

@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+ 
+   RewriteRule ^login/?$  /login.php[NC,L]
+   RewriteRule ^dashboard/?$  /admin.php[NC,L]
+   RewriteRule ^dashboard/?$ /?page=painel [NC,L]
+   RewriteRule ^relatorios/?$ /?page=relatorios [NC,L]
+   RewriteRule ^addCliente/?$ /?page=add_cliente [NC,L]
+   RewriteRule ^addProduto/?$ /?page=add_produto [NC,L]
+   RewriteRule ^addPedras/?$ /?page=add_pedras [NC,L]
+   RewriteRule ^addAcabamentos/?$ /?page=add_acabamento [NC,L]
+   RewriteRule ^configuracao/?$ /?page=configuracao [NC,L]
+
+</IfModule>
